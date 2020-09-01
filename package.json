@@ -1,0 +1,48 @@
+{
+  "name": "linkedin-messages",
+  "version": "1.0.0",
+  "description": "A CLI tool to parse exported LinkedIn messages CSV file to discussion TXT files.",
+  "repository": "romualdnave/linkedin-messages",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "lint": "eslint index.js 'lib/**'",
+    "test": "mocha --recursive tests/"
+  },
+  "keywords": [
+    "linkedin",
+    "messages",
+    "parser",
+    "csv",
+    "discussion",
+    "conversation",
+    "message",
+    "fs",
+    "stream",
+    "file-system",
+    "data",
+    "content",
+    "contents",
+    "social",
+    "network",
+    "utilities",
+    "cli"
+  ],
+  "author": {
+    "name": "Romuald Nave",
+    "email": "support@romualdnave.fr",
+    "url": "https://www.romualdnave.fr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^2.3.3",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.1.3"
+  }
+}
